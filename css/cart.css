@@ -1,0 +1,42 @@
+.table-cart{
+
+    border-collapse:inherit;
+
+}
+
+.box-align{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 30px;
+
+
+}
+
+.btn-comprar-cart-box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: end;
+
+}
+
+.btn-comprar{
+
+    
+    background-color: #B445FE;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.btn-comprar:hover{
+
+    background-color: #a12eed;
+    transition: 0.2s ease;
+    transform: translateY(-2px);
+
+}
